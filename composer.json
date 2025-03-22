@@ -27,6 +27,12 @@
         "mockery/mockery": "^1.3.3",
         "phpunit/phpunit": "^8.4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cjmellor/torchlight-laravel"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Torchlight\\Commonmark\\": "src/"
